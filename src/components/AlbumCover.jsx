@@ -1,5 +1,6 @@
 import React from "react";
+import './AlbumCover.css';
 
 export const AlbumCover = ({ imageUrl, alt }) => {
-    return <img src={imageUrl} alt={alt} style={{ width: '100%', height: 'auto' }} />;
+    return <img className="album-cover" src={imageUrl} alt={alt} />;
 };
