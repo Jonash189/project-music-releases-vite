@@ -11,7 +11,7 @@ export const Album = ({ album }) => {
             <AlbumCover imageUrl={album.images[0].url} alt={album.name} />
 
 
-            <AlbumName name={album.name} />
+            <AlbumName name={album.name} url={album.external_urls.spotify} />
 
 
             <div className="artists">

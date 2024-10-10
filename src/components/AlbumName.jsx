@@ -1,5 +1,9 @@
-import React from "react";
-
-export const AlbumName = ({ name }) => {
-    return <h2>{name}</h2>;
+export const AlbumName = ({ name, url }) => {
+    return (
+        <h2>
+            <a href={url} target="_blank" rel="noopener noreferrer">
+                {name}
+            </a>
+        </h2>
+    );
 };
