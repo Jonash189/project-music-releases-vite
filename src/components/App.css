@@ -8,3 +8,22 @@
     text-align: left;
 
 }
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .App {
+        grid-template-columns: repeat(1, 1fr);
+        /* 1 album per rad på mobil */
+    }
+}
+
+/* Ipads */
+
+@media (max-width: 1024px) and (min-width: 767px) {
+    .App {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 album per rad på surfplatta */
+    }
+}

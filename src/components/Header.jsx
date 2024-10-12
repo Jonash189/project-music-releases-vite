@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
     return (
         <div>
-            <h1>Spotify lista</h1>
+            <h1>Music releases</h1>
         </div>
     );
 
