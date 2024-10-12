@@ -1,0 +1,13 @@
+.album-name {
+    font: helvetica;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.album-name:hover {
+    text-decoration: underline;
+
+}
