@@ -8,7 +8,7 @@
     height: auto;
     border-radius: 8px;
     z-index: 1;
-    /* Album-omslaget ligger längst ner */
+
 }
 
 .icons {
@@ -22,15 +22,15 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    /* Ikonerna syns inte initialt */
+
     transition: opacity 0.3s ease;
     z-index: 4;
-    /* Ikonerna har högst z-index för att ligga ovanpå overlay */
+
 }
 
 .cover-container:hover .icons {
     opacity: 1;
-    /* Visar ikonerna när man hovrar */
+
 }
 
 .icon-small {
@@ -38,7 +38,7 @@
     height: 35px;
     align-self: center;
     filter: brightness(0) invert(1);
-    /* Gör ikonerna vita */
+
     padding: 10px;
     opacity: 50%;
 }
@@ -50,21 +50,19 @@
     padding: 10px;
     transition: transform 0.3s ease;
     filter: brightness(0) invert(1);
-    /* Gör ikonerna vita */
+
     opacity: 50%;
 }
 
 .icon-big:hover {
     transform: scale(1.2);
-    /* Förstora vid hover */
     opacity: 100%;
-    /* Full opacitet när man hovrar */
+
 }
 
 .icon-small:hover {
     opacity: 100%;
 
-    /* Full opacitet när man hovrar */
 }
 
 .overlay {
@@ -74,16 +72,13 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0);
-    /* Ingen bakgrundsfärg initialt */
     z-index: 2;
-    /* Overlay ligger under ikonerna */
     transition: background-color 0.3s ease;
-    /* För mjuk övergång */
+
 }
 
 .cover-container:hover .overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    /* Mörk overlay vid hover */
     z-index: 3;
-    /* Overlay flyttas upp under ikonerna men över albumet */
+
 }
