@@ -11,9 +11,9 @@ export const AlbumCover = ({ imageUrl, alt }) => {
             <img className="album-cover" src={imageUrl} alt={alt} />
             <div className="overlay"></div>
             <div className="icons">
-                <img id="icon-small" src={heartIcon} alt="heart-icon" />
-                <img id="icon-big" src={playIcon} alt="play-icon" />
-                <img id="icon-small" src={dotsIcon} alt="dots-icon" />
+                <img className="icon-small" src={heartIcon} alt="heart-icon" />
+                <img className="icon-big" src={playIcon} alt="play-icon" />
+                <img className="icon-small" src={dotsIcon} alt="dots-icon" />
             </div>
         </div>
     );
