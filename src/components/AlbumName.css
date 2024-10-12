@@ -1,9 +1,9 @@
 .album-name {
-    font: helvetica;
+    font-family: Helvetica, sans-serif;
     color: white;
     font-size: 14px;
     text-decoration: none;
-    color: inherit;
+
 
 }
 
